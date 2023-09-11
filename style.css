@@ -68,7 +68,6 @@ main .container {
 
 .main-grid-container {
   display: grid;
-  gap: 30px;
 }
 
 .title-container {
@@ -87,6 +86,13 @@ h1 {
   font-size: 56px;
   font-weight: 800;
   line-height: 56px;
+}
+
+.text-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .text-container p {
@@ -121,6 +127,7 @@ button a {
   background: var(--Dark-Space-Blue);
   color: var(--AlmostWhite);
   padding: 32px 24px;
+  margin-left: 30px;
 }
 
 .second-grid-container h2 {
@@ -162,15 +169,41 @@ section .container {
 .section-grid-container {
   display: grid;
   grid-auto-flow: column;
+  gap: 30px;
 }
 
 .card-grid {
   display: grid;
   grid-auto-flow: column;
-  border: 1px solid green;
   height: 127px;
 }
 
-.card-img {
-  border: 1px solid red;
+.card-grid h3 {
+  color: var(--Silver);
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.card-grid h4 {
+  color: var(--Dark-Space-Blue);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+
+.card-grid p {
+  color: var(--Gunmetal);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.card-img img {
+  height: 100%;
+  width: 70%;
+  object-fit: cover;
 }
