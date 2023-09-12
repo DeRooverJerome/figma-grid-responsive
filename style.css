@@ -61,6 +61,10 @@ header ul li a {
   line-height: 26px;
 }
 
+header ul li a:hover {
+  color: #9597b1;
+}
+
 .burger-icon {
   height: 17px;
   width: 40px;
@@ -157,6 +161,11 @@ button:hover {
   line-height: 40px;
 }
 
+.second-grid-container h3:hover {
+  cursor: pointer;
+  color: rgb(192, 186, 186);
+}
+
 .second-grid-container h3 {
   font-family: "Inter";
   font-size: 20px;
@@ -231,6 +240,9 @@ section .container {
 /* Media querries ---------------------- */
 
 @media (min-width: 375px) and (max-width: 600px) {
+  body{
+    overflow: hidden;
+  }
   header .container ul {
     display: none;
   }
