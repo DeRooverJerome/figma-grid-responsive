@@ -61,6 +61,14 @@ header ul li a {
   line-height: 26px;
 }
 
+.burger-icon {
+  height: 17px;
+  width: 40px;
+  background: url(./assets/Group.png);
+  position: absolute;
+  display: none;
+}
+
 /* Main - Left side --------------------------------- */
 
 main .container {
@@ -260,5 +268,16 @@ section .container {
   }
   .right {
     margin-right: -180px;
+  }
+  .burger-icon {
+    position: relative;
+    display: block;
+    background: url(./assets/Group.png);
+    height: 17px;
+    width: 40px;
+    cursor: pointer;
+  }
+  .right p {
+    width: 50%;
   }
 }
