@@ -240,9 +240,6 @@ section .container {
 /* Media querries ---------------------- */
 
 @media (min-width: 375px) and (max-width: 600px) {
-  body{
-    overflow: hidden;
-  }
   header .container ul {
     display: none;
   }
