@@ -290,11 +290,12 @@ section .container {
     margin-left: -20px;
   }
   #last-grid img {
-    width: 103px;
+    object-fit: cover;
+    width: 140px;
     height: 150px;
   }
 
   #last-grid .card-text {
-    margin-left: 30px;
+    margin-left: 38px;
   }
 }
